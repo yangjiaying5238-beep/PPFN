@@ -43,3 +43,4 @@ venv/
 # 日志
 *.log
 logs/
+README.md
