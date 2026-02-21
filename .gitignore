@@ -1,0 +1,45 @@
+# 数据集
+data/
+datasets/
+Iray_select/
+
+# 训练产物
+checkpoint/
+checkpoints/
+results/
+outputs/
+
+# 模型文件
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 大文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 日志
+*.log
+logs/
