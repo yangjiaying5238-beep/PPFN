@@ -116,7 +116,7 @@ class TrainSetLoader(Dataset):
         if not isinstance(patch_size, Tuple):
             patch_size = (patch_size, patch_size)
         self.patch_size = patch_size
-        with open(self.dataset_label_dir + '/train.txt', 'r') as f:
+        with open(self.dataset_label_dir + '/meta/train.txt', 'r') as f:
             self.train_list = f.read().splitlines()
         self.train_list = self.train_list
         self.transform = augumentation()
